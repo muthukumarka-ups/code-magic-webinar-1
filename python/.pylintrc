@@ -1,0 +1,11 @@
+[MESSAGES CONTROL]
+disable=
+  attribute-defined-outside-init,
+  broad-except,
+  consider-using-f-string,
+  invalid-name,
+  missing-docstring,
+  too-few-public-methods,
+  too-many-nested-blocks,
+[FORMAT]
+max-line-length=139

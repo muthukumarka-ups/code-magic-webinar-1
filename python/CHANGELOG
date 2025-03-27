@@ -1,0 +1,91 @@
+pdd v1.7
+2022-12-03
+
+- fix pip install
+- document zsh completion script generator usage
+- makefile option to install completion scripts
+
+-------------------------------------------------------------------------------
+
+pdd v1.6
+2022-08-27
+
+- long variants for short program options
+- completion scripts for Bash, Fish and Zsh
+- add support for pyhton 3.10 (dropped 3.6)
+
+-------------------------------------------------------------------------------
+
+pdd v1.5
+2020-10-10
+
+- updated auto-generated package list
+- drop python 3.5 support, add 3.9
+- maintenance release
+
+-------------------------------------------------------------------------------
+
+pdd v1.4
+2019-04-04
+
+- Support hiding cursor on OSX
+- Command piggybacking with countdown timer
+- Show current time for timers
+- Disable showing epoch time on `pdd`
+
+-------------------------------------------------------------------------------
+
+pdd v1.3.1
+2018-08-08
+
+This is a minor release. Changes include:
+- Show epoch time with timestamp
+- Adds MANIFEST file for PyPI
+- Disabled packaging for Ubuntu 17.10
+
+-------------------------------------------------------------------------------
+
+pdd v1.3
+2018-07-01
+
+What's in?
+- Custom resolution for stopwatch (default - milliseconds)
+- Option `-q` (quiet) to run timers in the background
+- Show timers in reverse video
+- Use ISO 8601 format for dates
+- Some Windows-specific fixes
+
+-------------------------------------------------------------------------------
+
+pdd v1.2
+2018-05-20
+
+What's in?
+- Countdown timer (option `-c`)
+- Millisecond resolution stopwatch (option `-s`)
+- Packages generated for several new distros
+
+-------------------------------------------------------------------------------
+
+pdd v1.1
+2017-09-26
+
+What's in?
+- Short weekday in date add, sub
+- Day of the week on a date
+- Show seconds in timeslice add and subtract
+- Show number of earlier or later in timeslice add and subtract
+
+-------------------------------------------------------------------------------
+
+pdd v1.0
+2017-07-19
+
+What's in?
+- Calculate date difference
+- Calculate time difference
+- Calculate diff from *today* and *now*
+- Add, subtract duration (timeslice) to/from date (time)
+- Show current date, time and timezone
+
+-------------------------------------------------------------------------------
