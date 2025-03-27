@@ -1,0 +1,44 @@
+{
+    // Controls whether code instructions from .github/copilot-instructions.md are added to Copilot requests
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  
+    // Custom instructions for code generation (Experimental)
+    "github.copilot.chat.codeGeneration.instructions": [
+      "Use modern best practices.",
+      "Write clean, maintainable, and well-documented code.",
+      "Add comments where helpful.",
+      "Use meaningful variable and function names."
+    ],
+  
+    // Custom instructions for test generation (Experimental)
+    "github.copilot.chat.testGeneration.instructions": [
+      "Write comprehensive unit tests.",
+      "Use Arrange-Act-Assert pattern.",
+      "Include edge case scenarios.",
+      "Use a consistent naming convention for test methods."
+    ],
+  
+    // Custom instructions for reviewing current editor selection (Preview)
+    "github.copilot.chat.reviewSelection.instructions": [
+      "Review for potential bugs or logical errors.",
+      "Check for code readability and maintainability.",
+      "Suggest improvements if any.",
+      "Ensure proper use of language features."
+    ],
+  
+    // Custom instructions for commit message generation (Experimental)
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+      "Use imperative mood (e.g., 'Add', 'Fix').",
+      "Keep the first line under 50 characters.",
+      "Include a detailed description if needed.",
+      "Reference related issues or pull requests."
+    ],
+  
+    // Custom instructions for pull request description generation
+    "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
+      "Summarize key changes clearly and concisely.",
+      "Highlight the purpose and context of the PR.",
+      "Mention any related issues or tickets.",
+      "Include testing steps or deployment notes if applicable."
+    ]
+  }
