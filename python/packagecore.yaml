@@ -1,0 +1,96 @@
+name: pdd
+maintainer: Arun Prakash Jana <engineerarun@gmail.com>
+license: GPLv3
+summary: Tiny date, time difference calculator with timers.
+homepage: https://github.com/jarun/pdd
+commands:
+  install:
+    - make PREFIX="/usr" install DESTDIR="${BP_DESTDIR}"
+packages:
+  centos7.5:
+    builddeps:
+      - make
+    deps:
+      - python-dateutil
+      - python
+  centos7.6:
+    builddeps:
+      - make
+    deps:
+      - python-dateutil
+      - python
+  centos7.7:
+    builddeps:
+      - make
+    deps:
+      - python-dateutil
+      - python
+  centos8.0:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+    commands:
+      precompile:
+        - dnf install python3
+  debian9:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  debian10:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  fedora31:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  fedora32:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  opensuse15.1:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  opensuse15.2:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  opensuse.tumbleweed:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  ubuntu16.04:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  ubuntu18.04:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3
+  ubuntu20.04:
+    builddeps:
+      - make
+    deps:
+      - python3-dateutil
+      - python3

@@ -1,0 +1,8 @@
+.pytest_cache*
+__pycache__*
+
+# Distribution / packaging
+pdd.egg-info
+dist/
+build/
+pdd.py
